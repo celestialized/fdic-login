@@ -72,3 +72,9 @@
     background-color: #f04b31 !important;
 }
 
+
+.form-control:focus {
+   
+    border-color: #f04b31;
+    box-shadow: 0 0 0 0.2rem rgba(240,75,49,.25);
+}
