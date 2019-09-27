@@ -32,9 +32,9 @@
 }
 
 .loginContainer{
-    height: 768px;
+    height: 100vh;
     background-color: #fff;
-    border-radius: 5px;
+  
     z-index:15;
 
 }
