@@ -1,0 +1,248 @@
+*{
+    font-family: Roboto;
+}
+
+.mainContainer{
+    background-color: #f6f8f9;
+    position: relative;
+}
+
+.header{
+    position: fixed;
+    height: 75px;
+    width:100%;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.logoContainer img{
+    height: 58px;
+    object-fit: contain;
+  }
+
+.timesColor{
+    font-size: 19px;
+    color: #dbdbdb;
+}
+
+.timesColor:hover{
+    color:#f04b31;
+}
+
+.loginContainer{
+    height: 768px;
+    background-color: #fff;
+    z-index:1;
+    
+
+}
+
+.loginHeader{
+    font-size: 30px;
+    text-align: center;
+    color: #2c2e30;
+}
+
+.loginParagraph{
+    font-size: 16px;
+    text-align: center;
+    color: #2c2e30;
+  }
+
+
+
+
+.form-controlStyle{
+    width: 450px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ededed;
+}
+
+.btnStyle{
+    
+        width: 506px;
+        height: 56px;
+        border-radius: 28px;
+        border: solid 1px #f04b31;
+    
+}
+
+.btnStyle:hover{
+    background-color: #f04b31 !important;
+}
+
+/*yukarıdakiler önceki sayfa tasarımından geldi*/
+
+
+.licenceIDStyle{
+color:#f04b31;
+font-weight: bold;
+}
+
+.btnStyle1{
+    width: 506px;
+    height: 56px;
+}
+
+.btnStyleMini{
+    width: 190px;
+    height: 56px;
+    border-radius: 28px;
+    border: solid 1px #f04b31;
+}
+
+.leftPanel{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width:249px;
+   }
+
+.leftPanelContainer{
+    border-radius: 0  33px 33px 0;
+    background-color: #fff;
+    box-shadow: 2px 0px 12px 1px rgba(0,0,0,0.1);
+    z-index: 1;
+    
+}
+
+.circleprogressBar{
+    width: 72px;
+    height: 72px;
+  border-radius:50%;
+  background: #fff;
+  border:5px solid lightgreen;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #2c2e30;
+}
+
+.estimatePrice{
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 500;
+    
+    text-align: center;
+    color: #f04b31;
+}
+
+.estimateName{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.13;
+    color: #2c2e30;
+}
+
+
+.redTitle{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f04b31;
+}
+
+.textPanelBold{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2c2e30;
+}
+
+.textPanelNormal{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #2c2e30;
+}
+
+.editIcon{
+    color:#f04b31;
+
+}
+
+.addNewCarIcon{
+    color:#aaaaaa;
+    font-size: 16px;
+}
+
+.addNewCarText{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.footerBar{
+height: 75px;
+
+}
+
+.footerBarContainer{
+position: fixed;
+bottom:0;
+z-index: 10;
+background: #fff;
+box-shadow: 0 -1px 18px 0 rgba(0, 0, 0, 0.21);
+}
+
+.quoteBarIcon, .driverBarIcon, .carBarIcon, .policyBarIcon{
+    font-size: 38px;
+}
+
+/* .quoteBarIcon:hover, .driverBarIcon:hover, .carBarIcon:hover, .policyBarIcon:hover{
+    
+    color:#f04b31;
+} */
+
+.quoteBarTitle, .driverBarTitle, .carBarTitle, .policyBarTitle{
+font-family: Roboto;
+font-size: 16px;
+color: #2c2e30;
+}
+
+.quoteBarSubtext, .driverBarSubtext, .carBarSubtext, .policyBarSubtext{
+    font-family: Roboto;
+    font-size: 10px;
+    color: #2c2e30;
+    }
+
+    .form-control:focus {
+   
+    border-color: #f04b31;
+    box-shadow: 0 0 0 0.2rem rgba(240,75,49,.25);
+}
+   
+.footerBarContainer a{
+    text-decoration:none;
+    color:#2c2e30;
+}
+  
+
+
+.footerBarContainer a:hover .quoteBarIcon{
+    color:#f04b31;
+}
+
+.footerBarContainer a:hover .driverBarIcon{
+    color:#f04b31;
+}
+
+.footerBarContainer a:hover .carBarIcon{
+    color:#f04b31;
+}
+
+.footerBarContainer a:hover .policyBarIcon{
+    color:#f04b31;
+}
+
+.iconBorder{
+    width: 125px;
+    height: 125px;
+    font-size:65px;
+    border: 1px solid #cacaca;
+    color:#cacaca;
+    border-radius: 8px;
+}

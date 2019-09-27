@@ -1,0 +1,75 @@
+*{
+    font-family: Roboto;
+}
+
+.mainContainer{
+    background-color: #f6f8f9;
+    position: relative;
+}
+
+.header{
+    position:absolute;
+    top:0;
+    height: 75px;
+    width:100%;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.logoContainer img{
+    height: 58px;
+    object-fit: contain;
+  }
+
+.timesColor{
+    font-size: 19px;
+    color: #dbdbdb;
+}
+
+.timesColor:hover{
+    color:#f04b31;
+}
+
+.loginContainer{
+    height: 768px;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index:15;
+
+}
+
+.loginHeader{
+    font-size: 30px;
+    text-align: center;
+    color: #2c2e30;
+}
+
+.loginParagraph{
+    font-size: 16px;
+    text-align: center;
+    color: #2c2e30;
+  }
+
+
+
+.FormStyle{
+    width: 450px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ededed;
+}
+
+.btnStyle{
+    
+        width: 506px;
+        height: 56px;
+        border-radius: 28px;
+        border: solid 1px #f04b31;
+    
+}
+
+.btnStyle:hover{
+    background-color: #f04b31 !important;
+}
+
