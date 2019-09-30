@@ -208,11 +208,13 @@ box-shadow: 0 -1px 18px 0 rgba(0, 0, 0, 0.21);
 
 .quoteBarTitle, .driverBarTitle, .carBarTitle, .policyBarTitle{
 font-size:20px;
+line-height: 0.8;
 }
 
 
 .quoteBarSubtext, .driverBarSubtext, .carBarSubtext, .policyBarSubtext{
     font-size: 12px;
+    line-height: 1.9;
     }
 
 
@@ -290,7 +292,7 @@ a:hover .policyBarTitle{
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #f04b31;
+    background-color: #d64a34;
     border-color: #f04b31;
 }
 
@@ -329,11 +331,29 @@ a:hover .policyBarTitle{
         box-shadow: 0 0 0 0 rgba(0,0,0,0);
     }
 
-    .colBorder{
+    .colBorder+.colBorder{
         border-right: 0.5px solid #f0f0f0;
 
     }
 
     .FormStyle::placeholder{
         color:#888888;
+        
+    }
+
+    .form-control{
+        border:0;
+        transition:none ;
+    }
+    
+    
+    .form-control:focus {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        border:1px solid #ededed;
+        
+    }
+    
+
+    input.form-control {
+        padding-left: 33px;
     }
