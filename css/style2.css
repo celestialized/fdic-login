@@ -113,10 +113,11 @@ font-weight: bold;
     height: 72px;
   border-radius:50%;
   background: #fff;
-  border:5px solid lightgreen;
+  border: solid 9px #19e412;
   font-family: Roboto;
   font-size: 16px;
   color: #2c2e30;
+  font-weight: bold;
 }
 
 .estimatePrice{
@@ -198,45 +199,83 @@ box-shadow: 0 -1px 18px 0 rgba(0, 0, 0, 0.21);
 } */
 
 .quoteBarTitle, .driverBarTitle, .carBarTitle, .policyBarTitle{
-font-family: Roboto;
-font-size: 16px;
-color: #2c2e30;
+    font-size:20px;
+    }
+    
+    
+    .quoteBarSubtext, .driverBarSubtext, .carBarSubtext, .policyBarSubtext{
+        font-size: 12px;
+        }
+
+        .footerBarContainer a {
+            text-decoration: none;
+            color: #cecece;
+        }
+
+.form-control:focus {
+    border-color: #ededed;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
 
-.quoteBarSubtext, .driverBarSubtext, .carBarSubtext, .policyBarSubtext{
-    font-family: Roboto;
-    font-size: 10px;
-    color: #2c2e30;
+.redLine{
+    height: 4px;
+    background-color: #f04b31;
+    visibility: hidden;
+}
+
+.footerBarContainer a:hover .redLine, a{
+    visibility:visible;
+    
+    
+}
+
+
+.footerBarContainer a:hover{
+    color:#f04b31;
+    
     }
+    
+    a:hover .quoteBarSubtext{
+        color:#2c2e30 ;
+    }
+    
+    a:hover .driverBarSubtext{
+        color:#2c2e30 ;
+    }
+    a:hover .carBarSubtext{
+        color:#2c2e30 ;
+    }
+    a:hover .policyBarSubtext{
+        color:#2c2e30 ;
+    }
+    a:hover .quoteBarTitle{
+        color:#2c2e30 ;
+    }
+    
+    a:hover .driverBarTitle{
+        color:#2c2e30 ;
+    }
+    a:hover .carBarTitle{
+        color:#2c2e30 ;
+    }
+    a:hover .policyBarTitle{
+        color:#2c2e30 ;
+    }
+    
+    /*bunları tek çatı altında nasıl toplarım.?*/
+            
+
+
 
     .form-control:focus {
    
-    border-color: #f04b31;
-    box-shadow: 0 0 0 0.2rem rgba(240,75,49,.25);
+    border-color: #ededed;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
    
-.footerBarContainer a{
-    text-decoration:none;
-    color:#2c2e30;
-}
+
   
 
-
-.footerBarContainer a:hover .quoteBarIcon{
-    color:#f04b31;
-}
-
-.footerBarContainer a:hover .driverBarIcon{
-    color:#f04b31;
-}
-
-.footerBarContainer a:hover .carBarIcon{
-    color:#f04b31;
-}
-
-.footerBarContainer a:hover .policyBarIcon{
-    color:#f04b31;
-}
 
 .iconBorder{
     width: 125px;
@@ -246,4 +285,64 @@ color: #2c2e30;
     color:#cacaca;
     border-radius: 8px;
 }
+
+
+.btn-danger:focus{
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #f04b31;
+    border-color: #f04b31;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #f04b31;
+    border-color: #f04b31;
+}
+
+    .btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+        color: #fff;
+        background-color: #f04b31;
+        border-color: #f04b31;
+    }
+
+    .btn-danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-danger.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    }
+
+    .btn-outline-danger {
+        color: #f04b31;
+        border-color: #f04b31;
+    }
+
+    .btn-outline-danger:hover {
+        color: #fff;
+        background-color: #f04b31;
+        border-color: #f04b31;
+    }
+
+    .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
+        color: #fff;
+        background-color: #f04b31;
+        border-color: #f04b31;
+    }
+
+    .btn-outline-danger.focus, .btn-outline-danger:focus {
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    }
+
+    .btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    }
+
+    .colBorder{
+        border-right: 0.5px solid #f0f0f0;
+
+    }
+
+
+
 
