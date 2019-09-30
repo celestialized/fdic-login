@@ -58,6 +58,7 @@
     height: 56px;
     border-radius: 28px;
     background-color: #ededed;
+    color:#2c2e30;
 }
 
 .btnStyle{
@@ -120,6 +121,14 @@ font-weight: bold;
   font-weight: bold;
 }
 
+.estimateBorder{
+    height: 1px;
+    opacity: 0.10;
+    border-bottom: solid 1px #979797;
+    width: 100%;
+}
+
+
 .estimatePrice{
     font-family: Roboto;
     font-size: 34px;
@@ -148,7 +157,7 @@ font-weight: bold;
 .textPanelBold{
   font-family: Roboto;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   color: #2c2e30;
 }
 
@@ -342,7 +351,5 @@ box-shadow: 0 -1px 18px 0 rgba(0, 0, 0, 0.21);
         border-right: 0.5px solid #f0f0f0;
 
     }
-
-
 
 

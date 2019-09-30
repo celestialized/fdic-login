@@ -119,6 +119,15 @@ font-weight: bold;
   font-weight: bold;
 }
 
+.estimateBorder{
+    height: 1px;
+    opacity: 0.10;
+    border-bottom: solid 1px #979797;
+    width: 100%;
+}
+
+
+
 .estimatePrice{
     font-family: Roboto;
     font-size: 34px;
@@ -147,7 +156,7 @@ font-weight: bold;
 .textPanelBold{
   font-family: Roboto;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   color: #2c2e30;
 }
 
@@ -323,4 +332,8 @@ a:hover .policyBarTitle{
     .colBorder{
         border-right: 0.5px solid #f0f0f0;
 
+    }
+
+    .FormStyle::placeholder{
+        color:#888888;
     }
